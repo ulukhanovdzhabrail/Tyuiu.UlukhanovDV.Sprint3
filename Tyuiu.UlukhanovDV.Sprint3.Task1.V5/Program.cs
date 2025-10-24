@@ -1,12 +1,12 @@
-﻿using Tyuiu.UlukhanovDV.Sprint3.Task0.V9.Lib;
+﻿using Tyuiu.UlukhanovDV.Sprint3.Task1.V5.Lib;
 // See https://aka.ms/new-console-template for more information
 DataService ds = new DataService();
 Console.Title = "Спринт #3 | Выполнил: Улуханов Д. В. | СМАРТб-25-1";
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #3                                                               *");
 Console.WriteLine("* Тема: *                                                                 *");
-Console.WriteLine("* Задание #1                                                              *");
-Console.WriteLine("* Вариант #5                                                              *");
+Console.WriteLine("* Задание #0                                                              *");
+Console.WriteLine("* Вариант #9                                                              *");
 Console.WriteLine("* Выполнил: Улуханов Джабраил Вагифович | СМАРТб-25-1                     *");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -16,15 +16,12 @@ Console.WriteLine("*                                                            
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
-double value = 0.5;
 int startValue = 1;
-int stopValue = 15;
-Console.WriteLine("Переменная X = " + value);
+int stopValue = 10;
 Console.WriteLine("Старт шага = " + startValue);
-Console.WriteLine("Конец шага = " + stopValue);
+Console.WriteLine("Конец шага = " +  stopValue);
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
-Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
+Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(startValue, stopValue));
 Console.ReadKey();
-
