@@ -1,0 +1,28 @@
+﻿using Tyuiu.UlukhanovDV.Sprint3.Task6.V2.Lib;
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+DataService ds = new DataService();
+Console.Title = "Спринт #3 | Выполнил: Улуханов Д. В. | СМАРТб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #3                                                               *");
+Console.WriteLine("* Тема: *                                                                 *");
+Console.WriteLine("* Задание #0                                                              *");
+Console.WriteLine("* Вариант #9                                                              *");
+Console.WriteLine("* Выполнил: Улуханов Джабраил Вагифович | СМАРТб-25-1                     *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу                                                      *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+int startValue = 12;
+int stopValue = 18;
+Console.WriteLine("Начало отрезка = " + startValue);
+Console.WriteLine("Конец отрезка = " +  stopValue);
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("Количество делителей = " + ds.GetSumTheDivisors(startValue, stopValue));
+Console.ReadKey();
